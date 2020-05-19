@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>Retro Records Newtown : Experts in locating vinyl records for you</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="retro.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style> 
+body {
+    background:		#F0F0F0;
+}
+
+a {
+    color:#fea304;
+    text-decoration: none;
+ 
+}
+
+a:hover {
+    color:#7b2e0f;
+    text-decoration: none;
+ 
+}
+
+
+.con {
+    color: #7b2e0f;
+}
+
+.li {
+  display: inline;
+}
+
+
+mark {
+    background-color: rgba(44, 62, 80, 1);
+}
+
+h5 {
+    font-size: 19px;
+}
+
+#retros {
+    float: right;
+    margin-right: 80px;
+    margin-top: -170px;
+    width: 270px;
+
+}
+
+footer {
+  text-align: center;
+}
+
+#items {
+    text-align: center;
+    color: #0156A3;
+}
+
+#th {
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+}
+
+td {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media only screen and (max-width: 768px) {
+
+  h1, h2 {
+        font-family: Calibri;
+        font-size: 20px;
+    }
+
+  #section {
+  padding-bottom: 270px;
+}
+
+#retros {
+        float: right;
+        margin-right: 35px;
+        margin-top: -140px;
+        width: 210px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+h1, h2 {
+      font-family: Calibri;
+      font-size: 18px;
+  }
+
+#section {
+  padding-bottom: 250px;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+.p {
+  color: #cd6133;
+}
+
+#retros {
+        margin: auto;
+        margin-top: -15px;
+        width: 180px;
+    
+    }
+
+}
+</style>
+</head>
+
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<header>
+  <div class="head">
+    <a href="Home.html"><img id="logo" src="https://cdn.discordapp.com/attachments/598695591794442242/696536549541543986/retroRecordsNewtown_logo.png" alt="Retro Records Newtown logo" title="Your one-stop-shop for retro music purchases"></a>
+  
+    <ul id="con">     
+        <li></li><a class="con" href="mailto:info@retrorecordsnewtown.com.au">info@retrorecordsnewtown.com.au</a>
+        <li><a class="con" href="tel:0295191234">02 9519 1234</a></li>
+    </ul>
+  </div>
+  </header>
+
+<aside id="nav2">
+ <div class="head">
+  <nav class=" navbar navbar-expand-md">
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+    <ul class="navbar-nav">
+    <li class="nav-item"><a class="nav-link" href="Home.html" id="current">HOME</a></li>
+    <li class="nav-item"><a class="nav-link" href="retroalbums.php">RETRO ALBUMS</a></li>
+    <li class="nav-item"><a class="nav-link" href="rare_lps.html">RARE LPs</a></li>
+    <li class="nav-item"><a class="nav-link" href="usedrecords.html">USED RECORDS</a></li>
+    <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT&nbsp;US</a></li>
+    </ul>
+  </div>
+     <div>
+       <img id="cart" onclick="cart()" src="https://cdn.discordapp.com/attachments/598695591794442242/705247767924310036/shopping_basket_red.png">
+         <div id="cartinfo">
+             <h3>Cart</h3>
+             <hr>
+             <table  style="margin: auto; border-bottom: 1px solid lightgrey">
+              <tr id="th">
+                <th></th>
+                <th>Artist</th>
+                <th>Price</th>
+              </tr>
+              <tr class="tr">
+                  <td><img class="img5" src="https://cdn.discordapp.com/attachments/598695591794442242/696921448551546880/mo.PNG" alt="Got to GB vinyl album"></td><!-- PHP --></td>
+                  <td><!-- PHP --> Zeina Bure AVE</td>
+                  <td><b><!-- PHP --> $23.00</b></td>
+              </tr>
+          </table>
+              <h4 id="items"> <!-- PHP --> You have nothing in your cart!</h4>
+                 <button id="button" name="order">Check Out</button>
+         </div>
+     </div>
+  </nav>
+ </div>
+</aside>
+
+
+ <main id="main">
+<div class="head">
+
+  <section class="sections" style="color: white;">
+    <h1>Welcome to RetroRecords Newtown</h1>
+  
+    <p>RetroRecords Newtown is a one-stop-shop for your retro music purchases.</p>
+    
+   <p>We source <a href="retroalbums.html">retro albums</a>, <a href="rare_lps.html">rare LPs</a> and <a href="usedrecords.html">used records</a> for you, the music consumer and audiophile.<br>
+    For the latest updates and news, follow us on <a><mark class="markf">Facebook</mark></a>, <a><mark class="markt">Twitter</mark></a>, and <a><mark class="marki">Instagram</mark></a>.</p>
+  </section>
+
+  <figure id="retros">
+    <div class="figure">
+     <a href="retroalbums.html"><img class="img" src="https://cdn.discordapp.com/attachments/598695591794442242/696552741568249926/Got_to_GB_album.png" alt="Got to GB vinyl album"></a>
+     <a class="text1" href="retroalbums.html"><b>Just arrived</b></a>
+    </div>
+     
+     <div class="figure">
+     <a href="rare_lps.html"><img class="img" src="https://cdn.discordapp.com/attachments/598695591794442242/696552771431956480/zeina_bure_AVE_album.png" alt="Zeina Bure AVE retro album"></a>
+     <a class="text2" href="rare_lps.html"><b>Rare find</b></a>
+     </div>
+
+      <div id="prev">
+        <div class="prev" onclick="plusSlide(-1)">&#10094</div>
+        <div class="next" onclick="plusSlide(1)">&#10095</div>
+      </div>
+    </figure>
+
+<section class="section">
+   <h2>Vinyl records sound better</h2>
+   
+  <p>It's pure nostalgia. The audio on vinyl records cannot be compressed as much as modern<br> digital audio. It means that the audio from vinyl records is more precise and more natural. </p><br><br>
+</section>
+</div>
+</main>
+
+<div class="head">
+  <div id="hey">
+     <h3>Hey, a liitle of something about me.</h3>
+     <p>Ever since I was young, I loved to collect record albums, listen to them and repeat. I’ve even gifted some to my friends and family. Ever since then, it has inspired me to start a business and gift you, the albums you want. 
+       It may be for a collection, something appealing to you, a gift to others, whatever you want, we’ve got it. If not, contact us and we’ll order it for you!</p>
+  </div>
+</div>
+
+
+<div class="head tbody">
+<div class="usedd">
+<h2 class="used">Used Records<a class="viewall" href="usedrecords.php">View All</a></h2>
+<div class="usedr">
+  <img class="img3" src="https://cdn.discordapp.com/attachments/598695591794442242/696921471481675806/go.PNG" alt="Got to GB vinyl album">
+  <h5>Got to GB</h5><p class="p">$15.00</p>
+</div>
+
+</div>
+
+
+<br>
+
+<div class="usedd">
+  <h2 class="used">Rare LPs<a class="viewall" href="rare_lps.php">View All</a></h2>
+  <div class="usedr">
+    <img class="img3" src="https://cdn.discordapp.com/attachments/598695591794442242/696921448551546880/mo.PNG" alt="Zeina Bure AVE retro album">
+    <h5>Zeina Bure AVE</h5><p class="p">$23.00</p>
+  </div>
+
+  </div>
+</div>
+
+
+  <div class="head">
+<section id="section">
+<div class="head">
+  
+
+    <h2 style="margin-left: 10px"><b>Find us</b></h2>
+    
+    <p style="margin-left: 10px;">We are located at the top of King Street, just near the Marly Hotel. <a  href="contact.html">Contact Us</a></p><br><br>
+  
+      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5634.221234811046!2d151.17761741987195!3d-33.89870479634364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%22retro%20records%20newtown%22!5e0!3m2!1sen!2sau!4v1586149791666!5m2!1sen!2sau" class="iframe" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+    </section>  
+</div><br>
+
+<div id="tfooter">
+  <ul id="sm">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+  </ul>
+  <ul id="ull">
+      <li><a href="mailto:info@retrorecordsnewtown.com.au">info@retrorecordsnewtown.com.au</a></li>
+      <li><a href="legals.html">Legals</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+  </ul>           	
+</div><br>
+
+    <footer>
+        <ul id="ull">
+            <li>&copy; Retro Records Newtown Pty Limited 20xx. All Rights Reserved</li>
+        </ul>           	
+    </footer>
+
+
+ <script>
+{
+var slideIndex = 1;
+var timer = null;
+showSlides(slideIndex);
+
+function plusSlide(n) {
+  clearTimeout(timer);
+  showSlides(slideIndex += n);
+}
+}
+
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("figure");
+  if (n==undefined){n = ++slideIndex}
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slides[slideIndex-1].style.display = "block";
+  timer = setTimeout(showSlides, 4000);
+} 
+
+
+
+function cart() {
+  var x = document.getElementById("cartinfo");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+ </script>
+</body>
+</html>
